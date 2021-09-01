@@ -105,6 +105,8 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton("About", callback_data="about")
                     ]
+                    [
+                        InlineKeyboardButton("Share Bot", url="https://t.me/SeriesSearch_Bot?startgroup=true")
                 ]
             )
         )
