@@ -104,7 +104,7 @@ async def start(bot, cmd):
                     ],
                     [
                         InlineKeyboardButton("About", callback_data="about")
-                    ]
+                    ],
                     [
                         InlineKeyboardButton("➕ Add Me To Your Group", url="https://t.me/SeriesSearch_Bot?startgroup=true")
                     ]
