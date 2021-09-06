@@ -27,6 +27,13 @@ DATABASE_URI = environ['DATABASE_URI']
 DATABASE_NAME = environ['DATABASE_NAME']
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+#for broadcast
+BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", ""))
+
+#for broadcast and user stts db
+MONGODB_URI = os.environ.get("MONGODB_URI", "")
+SESSION_NAME = os.environ.get("SESSION_NAME", "MediaSearchBot")
+
 # Messages
 default_start_msg = """
 **Hi, I'm Media Search Bot or ypu can call me as Auto-Filter Bot**
